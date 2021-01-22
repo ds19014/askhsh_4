@@ -14,7 +14,8 @@
                 Scanner myObj = new Scanner(System.in);
                 System.out.println("Dose onoma etairias: ");
                 String Namecomp = myObj.nextLine();
-                if (Namecomp.equals(" ")) {
+                if (Namecomp.equals(" "))
+                {
                     System.out.println("Error ");
                 }
 
@@ -46,4 +47,3 @@
             }
         }
     }
-}
